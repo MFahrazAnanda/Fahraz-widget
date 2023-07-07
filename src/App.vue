@@ -3,7 +3,7 @@
     <header>
       <nav>
         <div class="wrapper">
-          <img src="./assets/Logo.png" alt="Logo" />
+          <div class="logo0"><h2>W</h2></div>
           <div class="logo1"><h2>idget.</h2></div>
         </div>
         <div class="menu">
@@ -43,13 +43,15 @@ export default {
 .wrapper{
   display: flex;
   align-items: center;
+  margin-left: 65px;
 }
 
-.wrapper img {
-  width: 150px; 
-  height: 150px; 
-  margin-right: -34px;
-  border-radius: 50%;
+.logo0 h2 {
+  font-size: 50px;
+  font-weight: 800;
+  float: left;
+  font-family: courier;
+  color: #ff0000;
 }
 
 .logo1 h2 {
